@@ -1,6 +1,6 @@
-# /etc/init.d/sample.py
+# /etc/init.d/main_script.py
 ### BEGIN INIT INFO
-# Provides:          sample.py
+# Provides:          main_script.py
 # Required-Start:    $remote_fs $syslog
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
