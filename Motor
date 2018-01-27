@@ -15,18 +15,13 @@ for i in range(1,101):
     print ("Clock")
     GPIO.output(Motor1A,GPIO.HIGH)
     GPIO.output(Motor1B,GPIO.LOW)
-    GPIO.output(Motor1E,GPIO.HIGH)
-     
-    sleep(.20)
-     
+    GPIO.output(Motor1E,GPIO.HIGH  
+    sleep(.20  
     print ("C Clock")
     GPIO.output(Motor1A,GPIO.LOW)
     GPIO.output(Motor1B,GPIO.HIGH)
-    GPIO.output(Motor1E,GPIO.HIGH)
-     
-    sleep(0.20)
-     
+    GPIO.output(Motor1E,GPIO.HIGH)  
+    sleep(0.20)  
     #print ("Now stop")
-    #GPIO.output(Motor1E,GPIO.LOW)
-     
+    #GPIO.output(Motor1E,GPIO.LOW)    
 GPIO.cleanup()
