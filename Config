@@ -19,3 +19,11 @@ sudo service apache2 start
 
 # Exfat
 sudo apt-get install exfat-utils exfat-fuse
+
+
+sudo raspi-config
+
+#Remove Package
+sudo apt-get purge wolfram-engine libreoffice* -y
+sudo apt-get clean #Clean cache
+sudo apt-get autoremove -y #Remove dependencies
