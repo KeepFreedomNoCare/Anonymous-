@@ -1,3 +1,4 @@
+The best way to boot start to edit rc.local from /etc/ after comment before exit 0 other methond don't work now.
 #! /bin/sh
 # /etc/init.d/main_script.py
 ### BEGIN INIT INFO
