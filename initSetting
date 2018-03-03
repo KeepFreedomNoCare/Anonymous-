@@ -2,7 +2,7 @@ fypksk@gmail.com pass: b3
 raspi-config
 Resolution:
 Interface: VNC, SSH,
-Localisation: US, Asia Karachi, United States English(US,international), PK Pakistan
+Localisation: US, Asia Karachi, United States English(US,en), PK Pakistan
 
 Healess: raspi-config: Advanced Options: GL Driver: G3 GL Lagacy.
 
